@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, Arial, serif;
+    margin: 0;
+    
+}
+
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 16px auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 48px auto;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+li {
+    margin-right: 16px;
+    margin-top: -22px;
+}
+
+.box-left {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.box-right {
+    width: 800px;
+    border: 15px white;
+    padding: 100px;
+    margin: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
